@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color:rgb(194, 0, 194);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(238, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.add-todo {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.add-todo input {
+  padding-left: 5px;
+  font-size: 15px;
+  background-color: black;
+  color: rgb(255, 13, 255);
+  flex: 1;
+  border: 2px solid #670024;
+  border-radius: 5px 0 0 5px;
+}
+
+.add-todo button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.add-todo button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #f574a1;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+li span {
+  flex: 1;
+}
+
+li button {
+  font-weight: 500;
+  font-size: 12px;
+  background-color: rgb(104, 0, 127);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+#removeAllButton {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#removeAllButton:hover {
+  background-color: #c0392b;
+}
+
+body {
+    background-color: #000000;
+}
+
+.color{
+    background-color: rgb(175, 20, 175);
+}
+
+.todo_task{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 800;
+    padding: 5px;
+    font-size:40px;
+    text-decoration:underline;
+
+} 
+
+.todo_class{
+    text-decoration:underline;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 15px;
+   text-align: center;
+   color:rgb(175, 20, 175) ;
+}
+
+.input_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.input_class{
+    margin-left: 25px;
+    background-color: transparent;
+    color: rgb(175, 20, 175);
+    border-color: rgb(175, 20, 175);
+    border-style:dashed;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 20%;
+    padding: 5px;
+}
+
+.first_button{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.first_button_class{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50px;
+    width: 5%;
+    background-color: white;
+    height: 5%;
+    cursor: pointer;
+    border-style:dashed;
+}
+
+.first_button_class:hover{
+    background-color:rgb(175, 20, 175) ;
+    color: white;
+   
+}
+
+.second_button_class{
+    background-color: rgb(163, 25, 194)!important;
+    color: black!important;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    /* border-radius: 50px; */
+    margin-left: 10px;
+    cursor: pointer;
+    /* width: 100%; */
+}
+
+.second_button_class:hover{
+    background-color:rgb(64, 0, 64)!important ;
+    color: white!important;  
+}
+
+.remove_removeAll{
+    display: flex;
+    justify-content: center;
+}
+
+.third_button_class{
+    background-color: rgb(163, 25, 194)!important;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100%;
+    margin-right: 10px
+}
+
+.third_button_class:hover{
+  background-color:rgb(64, 0, 64)!important ; ;
+    color: white;
+}
+
+.fourth_button_class{
+    background-color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.fourth_button_class:hover{
+    background-color:rgb(175, 20, 175);
+    color: white;
+}
+
+.ul_class{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.work{
+    background-color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 4.5%;
+}
+
+.work:hover{
+    background-color:rgb(175, 20, 175);
+    color: white;
+} 
+/* 
+span{
+    padding: 0px 10px;
+    background-color: rgb(247, 247, 247);
+    color:rgb(175, 20, 175) ;
+    font-size: 18px;
+    border-radius: 0%;
+}
